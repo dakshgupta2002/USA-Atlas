@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population</title>
+
+    <script src="C:\Users\diksh\Downloads\jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="city.css">
+    <link rel="icon" href="https://freeiconshop.com/wp-content/uploads/edd/location-map-flat.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&&family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header"> <a href="https://www.google.com/maps/"><img id="header-image" src="https://freeiconshop.com/wp-content/uploads/edd/location-map-flat.png"></a>
+        <u>WELCOME TO U.S.A. ATLAS</u></div>
+
+    <div id="body">
+        <!--<iframe width="750" height="500" src="https://www.youtube.com/embed/QgynzF-6Cbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+        <iframe width="2000" height="288" src="https://en.wikipedia.org/wiki/Atlas"></iframe><br>
+        >-->
+        <input type="text" id="text" placeholder="City or State in USA">
+
+        <select id="sort">            
+            <option value="increasing">Increasing</option>
+            <option value="decreasing">Decreasing</option>           
+            <option value="atoz">A-Z</option>
+            <option value="ztoa">Z-A</option>            
+        </select>
+        
+        <table id="result"> </table>
+
+        
+    </div>
+
+    <div id="footer">
+         <a href="https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json">JSON</a> data managed by <a href="https://github.com/Miserlou">Miserlou</a> and presented by <a href="https://github.com/dakshgupta2002?tab=repositories">Daksh Gupta</a>
+    </div>
+
+    <script type="text/javascript" src="city.js"></script>
+    
+</body>
+</html>
